@@ -137,3 +137,12 @@ if __name__ == "__main__":
 * **Why do we write blameless postmortems?** To uncover systemic weaknesses and prevent similar outages in the future without discouraging engineers from reporting mistakes honestly.
 * **What is the goal of proactive monitoring?** Detecting resource saturation or error trends *early* (via warning thresholds) so fixes can be applied before users experience downtime.
 * **Why test backups regularly?** To verify data integrity and confirm recovery procedures work reliably under real conditions before an actual emergency hits.
+
+===========
+
+## Effective troubleshooting
+
+When troubleshooting distributed systems, it's important to look beyond logical behavior. It takes well-established methods and a deep understanding of system behavior to troubleshoot effectively. Making observations, formulating hypotheses, and then systematically testing those hypotheses are all steps in the hypothetico-deductive method. It's crucial to avoid common pitfalls, such as fixating on unrelated symptoms or confusing correlation with causation. As you transition from theoretical concepts to practical implementation, using metrics, logs, and tracing exposes the subtle intricacies of the system's behavior. With defined strategies, well-informed diagnostic tools, and a thorough understanding of system dynamics, troubleshooting becomes a structured process supported by clear strategies.
+
+To learn more about using a systematic approach to troubleshooting effectively in distributed computing environments, read more 
+here - https://sre.google/sre-book/effective-troubleshooting/
