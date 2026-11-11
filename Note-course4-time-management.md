@@ -1,4 +1,4 @@
-
+(put in a proper place after pulling a repo to the comp)
 
 More about making the best use of your time
 
