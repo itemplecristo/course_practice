@@ -45,13 +45,25 @@ course_practice/
 │       ├── module_02_using_git_locally/
 │       ├── module_03_working_with_remotes/
 │       └── module_04_collaboration/
+├── course_5_configuration_management_and_cloud/   # Course 5: Configuration Management and the Cloud
+│   ├── data/
+│   └── modules/
+│       ├── module_01_automation_at_scale/
+│       ├── module_02_deploying_puppet/
+│       ├── module_03_automation_in_the_cloud/
+│       └── module_04_managing_cloud_instances/
 ├── tests/                                         # Automated unit tests (pytest / unittest)
 │   ├── course_1/
 │   │   └── test_module_01.py
 │   ├── course_2/
 │   │   ├── test_module_02.py
 │   │   └── test_module_03.py
-│   └── course_3/
+│   ├── course_3/
+│   │   ├── test_module_01.py
+│   │   ├── test_module_02.py
+│   │   ├── test_module_03.py
+│   │   └── test_module_04.py
+│   └── course_5/
 │       ├── test_module_01.py
 │       ├── test_module_02.py
 │       ├── test_module_03.py
